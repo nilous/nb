@@ -1,0 +1,27 @@
+{
+  "name": "nb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nilous/nb.git",
+  "author": "Feng Chen <chenf@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "lint-fix": "./node_modules/.bin/eslint --fix .",
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1"
+  },
+  "dependencies": {
+    "bookshelf": "^0.10.3",
+    "knex": "^0.13.0",
+    "mocha": "^3.4.2",
+    "pg": "^6.4.0",
+    "sqlite3": "^3.1.8"
+  }
+}
