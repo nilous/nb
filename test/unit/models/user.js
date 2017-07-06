@@ -25,7 +25,7 @@ describe('User#register', () => {
 
 describe('User#find', () => {
   it('fetch with email', (done) => {
-    User.find('user0@example.com')
+    User.find('user11@example.com')
       .then((user) => {
         done(user ? null : new Error('no user model found'));
       })
